@@ -1,46 +1,38 @@
+Quelques informations sur le compost :
 
-Param�tres :
-Avec capteurs :
-	- Temp�rature -> entre 15 et 25 celsius
-	- Humidit� -> entre 75 et 85%
-	- gaz -> 30:1 carbon/nitrogen + 10% oxyg�ne
-	- pH percolat (et g�n�ral) -> entre 6.5 et 8. (besoin de traitement ult�rieur, percolat doit faire del'engrais acide)
+Param�tres optimaux du compost:
+	Avec capteurs :
+		- Temp�rature -> entre 15 et 25 celsius
+		- Humidit� -> entre 75 et 85%
+		- gaz -> 30:1 carbon/azote + 10% oxyg�ne
+		- pH percolat (et g�n�ral) -> entre 6.5 et 8. (besoin de traitement ult�rieur, percolat doit faire del'engrais acide)
 
-Sans capteurs :
-	- Lumi�re -> endroit sombre
-	- Bruit -> endroit calme
-	- A�ration -> endroit bien a�r� (processus a�robie)
+	Sans capteurs :
+		- Lumi�re -> endroit sombre
+		- Bruit -> endroit calme
+		- A�ration -> endroit bien a�r�
 
+A PROPOS DU PROJET :
+	CONTRAINTES : 
+		Le compost doit �tre retourn� r�guli�rement + cuve ferm�e (pour la lumi�re).
+		dur�e de vie des �quipements
+		prix des �quipements
 
-CONTRAINTES : 
-	Le compost doit �tre retourn� r�guli�rement + cuve ferm�e (pour la lumi�re).
-	prix ?
-	dur�e de vie des �quipements
+	CAPTEURS RETENUS:
+		Voir Hardware.txt (  )
 
-CAPTEURS :
-	Voir capteurs
-
-PLACEMENT DES CAPTEURS : /!\ contraintes
+	PLACEMENT DES CAPTEURS : /!\ contraintes
     
-    Temperature/humidit� :		
-	Dans un premier temps : deux sondes "� main", fils suffisament long. Arduino -> boitier (dedans, dehors ?)
+		Temperature/humidit� : deux sondes filaires plong�es dans le compost
 
-    Capteurs gaz : plac�s au dessus (haut de la cuve)
+		Sonde pH : pour une mesure, � placer dans le seau qui r�colte le percolat.Les relev�s sont ponctuels, la sonde ne doit pas rest�e immerg�e.
 
-    Sonde pH : dans le seau qui r�colte le percolat (immersion constante != tests r�guliers) -> reli�s � la m�me arduino (probl�mes de fils)
+	UTILISATION : Voir Notice.txt ( ) 
 
+	AMELIORATIONS POSSIBLE : 
+		Notification quand un param�tre sort des normes ou connait une �volution anormale.
+		Mesurer la masse du compost pour determiner la masse de terreau/de vers.
 
-TRAVAIL SUR LE CODE :
-
-	d�tecter les trop grandes variations : moyenne des valeurs sur une heure ? une journ�e ? stocker donn�es pour v�rifier � la main
-	Si variation : pr�venir si on approche d'un seuil. Rappeler les causes possibles et les solutions envisageables.
-	Mettre en place la communication arduino/machines (avec Lora)
-
-
-TRAITEMENT DES DONNEES
-
-
-
-
-
-INTERFACE UTILISATEUR
+	INTERFACE UTILISATEUR
+		Donn�es pouss�es dans Stellio (voir wiki).
+		Dashboard � impl�menter.
