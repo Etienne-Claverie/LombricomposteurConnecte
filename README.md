@@ -13,13 +13,14 @@ Param�tres optimaux du compost:
 		- A�ration -> endroit bien a�r�
 
 A PROPOS DU PROJET :
+
 	CONTRAINTES : 
 		Le compost doit �tre retourn� r�guli�rement + cuve ferm�e (pour la lumi�re).
 		dur�e de vie des �quipements
 		prix des �quipements
 
 	CAPTEURS RETENUS:
-		Voir Hardware.txt (  )
+		Voir Hardware.txt ( https://github.com/GuitouBDA/ArduinoCompost/blob/guillaume/Hardware.txt )
 
 	PLACEMENT DES CAPTEURS : /!\ contraintes
     
