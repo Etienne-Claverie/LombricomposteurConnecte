@@ -1,11 +1,7 @@
 Quelques informations sur le compost :
 
-<<<<<<< HEAD
 Paramï¿½tres optimaux du compost:
-=======
-Paramètres optimaux du compost:
 
->>>>>>> update Rm
 	Avec capteurs :
 		- Tempï¿½rature -> entre 15 et 25 celsius
 		- Humiditï¿½ -> entre 75 et 85%
